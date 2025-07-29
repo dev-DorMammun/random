@@ -25,11 +25,12 @@ body {
 }
 .text {
   color: black;
-  background: linear-gradient(90deg, blue, green, yellow, red);
+  background: linear-gradient(90deg, blue, green, hsl(60, 100%, 61%), red);
   padding: 20px 30px;
   font-size: 20px;
   font-weight: 600;
   border-radius: 10px;
+  box-shadow: 0 0 30px 1px hsl(0, 70%, 60%);
 }
 .hidden {
   display: none;
